@@ -1,4 +1,4 @@
-# Remix Vision Sync 🎵👁️
+# Vision Sync 🎵👁️
 
 > **Remix Vision Sync** uses real-time computer vision to recognize objects and human facial expressions, translating live visual streams into procedural musical soundscapes powered by TensorFlow.js, MediaPipe, Tone.js, and Google Gemini AI.
 
