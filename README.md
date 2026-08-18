@@ -41,8 +41,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/remix-vision-sync.git
-   cd remix-vision-sync
+   git clone https://github.com/AlexJamesHQ/VISION_SYNC
    ```
 
 2. **Install dependencies:**
