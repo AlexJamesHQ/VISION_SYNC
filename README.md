@@ -1,10 +1,10 @@
-# Remix Vision Sync 🎵👁️
+# Vision Sync
 
 > **Remix Vision Sync** uses real-time computer vision to recognize objects and human facial expressions, translating live visual streams into procedural musical soundscapes powered by TensorFlow.js, MediaPipe, Tone.js, and Google Gemini AI.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Live Object Detection**: Utilizes TensorFlow.js and COCO-SSD for instant bounding-box object classification in the browser.
 - **Facial Landmark & Emotion Recognition**: Powered by Google MediaPipe Vision tasks for real-time face tracking and subtle affective cues.
@@ -13,8 +13,10 @@
 - **Modern Interactive UI**: High-contrast, responsive dashboard built with React 19, Tailwind CSS v4, Motion, and Lucide icons.
 
 ---
+### Live Demo
+[https://vision-sync-alex.vercel.app](https://vision-sync-alex.vercel.app)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
@@ -27,7 +29,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -70,7 +72,7 @@
 
 ---
 
-## 📦 Available Scripts
+## Available Scripts
 
 - `npm run dev` — Starts the local Vite development server on port `3000`
 - `npm run build` — Compiles TypeScript and creates an optimized production bundle in `dist/`
@@ -79,13 +81,13 @@
 
 ---
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **No Secrets in Public Repositories**: The `.gitignore` file is strictly pre-configured to ignore all `.env` files. **Never commit your actual API keys to GitHub.**
 - **Camera Privacy**: All computer vision inference (TensorFlow.js & MediaPipe) runs **100% locally in your browser** on the client side.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
