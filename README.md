@@ -29,47 +29,11 @@
 
 ---
 
-## Getting Started
-
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 18 or higher recommended)
 - [npm](https://www.npmjs.com/) (or yarn / pnpm / bun)
 - A webcam connected to your computer
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AlexJamesHQ/VISION_SYNC
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Copy the example environment file and configure your Gemini API Key:
-   ```bash
-   cp .env.example .env
-   ```
-   Open `.env` in your code editor and add your API key:
-   ```env
-   GEMINI_API_KEY="your_actual_gemini_api_key_here"
-   ```
-   *(Get your free API key at [Google AI Studio](https://aistudio.google.com/app/apikey))*
-
-4. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   Open your browser and visit [http://localhost:3000](http://localhost:3000).
-
-5. **Allow Camera Access:**
-   When prompted by your browser, grant camera permission so the vision engine can process live frames.
-
----
 
 ## Available Scripts
 
